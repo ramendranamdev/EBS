@@ -7,7 +7,6 @@
  */
 import 'react-native-gesture-handler';
 import React from 'react';
-import Home from './app/src/components/Home';
 import Routes from './app/src/routes/Routes';
 
 function App() {
