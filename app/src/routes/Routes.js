@@ -1,25 +1,19 @@
-//define routes here for react-navigation
-import {View, Text} from 'react-native';
+import React from 'react';
+import {Text, View} from 'react-native';
+import Home from '../components/Home';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
 const Stack = createStackNavigator();
 
-function HomeScreen() {
+function Routes() {
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Home Screen</Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="home" component={Home} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-}
-
-function Routes(params) {
-  return;
-  <NavigationContainer>
-    <Stack.Navigator>
-      <Stack.Screen name="home" component={HomeScreen} />
-    </Stack.Navigator>
-  </NavigationContainer>;
 }
 
 export default Routes;
