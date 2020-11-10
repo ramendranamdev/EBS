@@ -1,6 +1,4 @@
-export const colors = {
-  //define colors here
-  //Theme Color
+const T1 = {
   TEAL_GREEN_DARK: '#075E54',
   TEAL_GREEN_LIGHT: '#128C7E',
 
@@ -9,6 +7,22 @@ export const colors = {
   OUTGOING_CHAT_BUBLE: '#DCF8C6',
   CHECKMARK_BLUE: '#34B7F1',
   CHAT_BACKGROUND: '#ECE5DD',
+};
+
+export const colors = {
+  //define colors here
+  //Theme Color
+
+  Theme1: {
+    TEAL_GREEN_DARK: '#075E54',
+    TEAL_GREEN_LIGHT: '#128C7E',
+
+    LIGHT_GREEN: '#25D366',
+    WHITE: '#FFFFFF;',
+    OUTGOING_CHAT_BUBLE: '#DCF8C6',
+    CHECKMARK_BLUE: '#34B7F1',
+    CHAT_BACKGROUND: '#ECE5DD',
+  },
 };
 
 // Teal Green

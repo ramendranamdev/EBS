@@ -4,7 +4,7 @@ import Camera from './Tabs/Camera';
 
 function Tabs1() {
   return (
-    <Tabs transparent>
+    <Tabs transparent initialPage={1}>
       <Tab
         heading={
           <TabHeading>

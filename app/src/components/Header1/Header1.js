@@ -3,10 +3,11 @@ import {Header} from 'native-base';
 import LeftBody from './LeftBody';
 import RightBody from './RightBody';
 import CenterBody from './CenterBody';
+import {colors} from './../../../res/colors';
 
 function Header1() {
   return (
-    <Header>
+    <Header hasTabs>
       <LeftBody />
       {/* <CenterBody /> */}
       <RightBody />
